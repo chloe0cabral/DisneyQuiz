@@ -1,0 +1,102 @@
+@font-face {
+    font-family: chicken;
+    src: url(CHICKEN_Pie.ttf);
+  }
+
+body{
+    font-family: chicken;
+    padding: 0;
+    margin: 0;    
+    width:100vw;
+    height: 100vh;
+    background-image: url("disneyBg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.panel{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question-container{
+    font-family: chicken;
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 10vh;
+    background-color: #2b8ad8;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 30px;
+    border-style: double;
+    border-color: darkblue;
+      
+}
+.result{
+    font-family: chicken;
+    margin: 10px;
+    padding: 5px;
+    width: 40vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+    background-color:rgba(0, 0, 0, 0.103);
+    border-radius: 30px;
+      
+}
+.option-container{
+    display: flex;
+    justify-content: space-around; 
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 20vh;
+    background-color: none;   
+        
+}
+.option{  
+    font-family: chicken;  
+    padding: 10px;
+    width: 25vw;
+    height: 15vh;
+    font-size: larger;
+    background-color: lightskyblue;
+    border-radius: 25%;
+}
+.option:hover{
+    background-color: black;
+    background-image: url("sparkle.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navigation{
+    width: 80vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: none;
+}
+  
+.evaluate,.next{
+
+    font-family: chicken;
+    width:30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: larger;
+}
+.evaluate{
+    font-family: chicken;
+    background-color: #3352ff;
+}
+.next{
+    color: white;
+    background-color: #7dc286;
+    font-family: chicken;
+}
